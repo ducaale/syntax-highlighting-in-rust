@@ -2,7 +2,7 @@ use indoc::indoc;
 use ansi_term;
 use ansi_term::Color::{self, Fixed, RGB};
 use syntect::easy::HighlightLines;
-use syntect::parsing::SyntaxSet;
+use syntect::parsing::SyntaxSetBuilder;
 use syntect::highlighting::{self, ThemeSet};
 use syntect::util::LinesWithEndings;
 
@@ -44,8 +44,10 @@ fn to_ansi_color(color: highlighting::Color) -> ansi_term::Color {
 
 fn main() {
     // Load these once at the start of your program
-    let ps = SyntaxSet::load_from_folder("assets").unwrap();
     let ts = ThemeSet::load_from_folder("assets").unwrap();
+    let mut ps = SyntaxSetBuilder::new();
+    ps.add_from_folder("assets", true).unwrap();
+    let ps = ps.build();
 
     let syntax = ps.find_syntax_by_name("HTTP").unwrap();
     let mut h = HighlightLines::new(syntax, &ts.themes["ansi-dark"]);
