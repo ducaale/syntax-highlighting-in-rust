@@ -10,3 +10,6 @@ mentioned [here](https://forum.sublimetext.com/t/trying-to-convert-tmlanguage-sy
 - [json-kv](https://github.com/aurule/json-kv)
 - [Sublime Packages](https://github.com/sublimehq/Packages/tree/fa6b8629c95041bf262d4c1dab95c456a0530122)
 - [ansi-dark theme](https://github.com/sharkdp/bat/blob/master/assets/themes/ansi-dark.tmTheme)
+
+## TODO:
+- Figure out how convert assets into a bin file. This is currently being done in [bat](https://github.com/sharkdp/bat/tree/master/assets).
