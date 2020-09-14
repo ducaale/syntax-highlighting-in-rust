@@ -13,3 +13,4 @@ mentioned [here](https://forum.sublimetext.com/t/trying-to-convert-tmlanguage-sy
 
 ## TODO:
 - Figure out how convert assets into a bin file. This is currently being done in [bat](https://github.com/sharkdp/bat/tree/master/assets).
+- Turn off the inclusion of default assets. See https://github.com/trishume/syntect/issues/278#issuecomment-576926815
