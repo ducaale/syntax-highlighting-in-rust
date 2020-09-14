@@ -12,5 +12,5 @@ mentioned [here](https://forum.sublimetext.com/t/trying-to-convert-tmlanguage-sy
 - [ansi-dark theme](https://github.com/sharkdp/bat/blob/master/assets/themes/ansi-dark.tmTheme)
 
 ## TODO:
-- Figure out how convert assets into a bin file. This is currently being done in [bat](https://github.com/sharkdp/bat/tree/master/assets).
+- Figure out how convert assets into a bin file. See https://github.com/sharkdp/bat/tree/master/assets
 - Turn off the inclusion of default assets. See https://github.com/trishume/syntect/issues/278#issuecomment-576926815
