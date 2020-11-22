@@ -12,7 +12,4 @@ mentioned [here](https://forum.sublimetext.com/t/trying-to-convert-tmlanguage-sy
 - [ansi-dark theme](https://github.com/sharkdp/bat/blob/master/assets/themes/ansi-dark.tmTheme)
 
 ## TODO:
-- Figure out how convert assets into a dump file. See https://github.com/trishume/syntect/blob/master/examples/gendata.rs
-- Investigate generating bin files as part of build.rs script. See https://doc.rust-lang.org/cargo/reference/build-scripts.html
-- Include dump in the final binary. See https://stackoverflow.com/questions/61818515/
 - Turn off the inclusion of default assets. See https://github.com/trishume/syntect/issues/278#issuecomment-576926815

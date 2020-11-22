@@ -10,3 +10,6 @@ edition = "2018"
 syntect = "4.4"
 ansi_term = "0.12"
 indoc = "1.0"
+
+[build-dependencies]
+syntect = "4.4"
